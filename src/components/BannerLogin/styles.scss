@@ -1,0 +1,33 @@
+.container__banner{
+  height: 100vh;
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .container__banner--banner{
+    height: 100vh;
+    left: 0;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(90deg, #4d1c85dd 0%, #4d1c85dd 100%), url('../../assets/img/banner.png');
+    mix-blend-mode: normal;
+    background-size: cover;
+    background-position: center;
+    
+    .container__banner--h1{
+      color: #FFFFFF;
+      font: normal normal bold 64px/64px Source Sans Pro;
+      text-align: center;
+      
+      margin: 100px;
+    }
+  }
+}

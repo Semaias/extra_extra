@@ -1,0 +1,25 @@
+.container__card{
+  width: 180px;
+  height: 180px;
+  margin: 15px;
+  border-radius: 4px;
+  border: 1px solid #D0C6D8;
+
+  background-color: #ECE7F2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container__card--content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: #8E68B7;
+
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+  }
+}

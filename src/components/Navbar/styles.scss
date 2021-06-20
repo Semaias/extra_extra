@@ -1,0 +1,25 @@
+.container__navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+
+  background-color: #2C1842;
+
+  .container__navbar--title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .container__navbar--h2{
+      font-family: "Source Sans Pro";
+      font-size: 26px;
+      font-weight: bold;
+      color: #D5CDDE;
+    }
+  }
+}

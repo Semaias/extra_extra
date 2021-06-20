@@ -1,0 +1,27 @@
+.container__dashboard{
+  width: 100%;
+  
+  .container__dashboard--title{
+    width: 100%;
+    color: #5C3B81;
+    margin-top: 20px;
+    border-bottom: 1px solid #D0C6D8;
+    
+    .container__dashboard--h2 {
+      display: flex;
+      align-items: center;
+      width: 100%;
+
+      font-family: "Source Sans Pro";
+      font-weight: 900;
+      font-size: 36px !important;
+    }
+  }
+
+  .container__dashboard--card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+  }
+}

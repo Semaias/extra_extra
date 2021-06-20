@@ -1,0 +1,69 @@
+.container__ForgotPassword{
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+  .container__ForgotPassword--col{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .container__ForgotPassword--h2{
+      color: #5C3B81;
+      font-size: 32px;
+      line-height: 36px;
+      font-family: "Source Sans Pro";
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .container__ForgotPassword--p{
+      margin-top: 20px;
+
+      color: #756E7E;
+      line-height:24px;
+      font-size:18px;
+      font-family: "Source Sans Pro";
+      text-align: center;
+
+    }
+
+    .container__ForgotPassword--enter{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 20px;
+
+    }
+
+    .container__ForgotPassword--f_password{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .container__ForgotPassword--f_pass_link{
+        color: #756E7E;
+        font: normal normal normal 15px/25px Source Sans Pro;
+        text-decoration: none;
+        
+        &:hover{
+          color: #756E7E !important;
+          font: normal normal normal 15px/25px Source Sans Pro;
+          text-decoration: underline #756E7E;
+          cursor: pointer;
+        }
+      }
+
+      .click{
+        background-color: #756E7E !important;
+
+      }
+    }
+  }
+}

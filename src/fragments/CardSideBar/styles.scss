@@ -1,0 +1,38 @@
+.container__CardSideBar{
+  margin-top: 5px;
+
+  width: 210px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+
+  .container__CardSideBar--content{
+    height: 44px;
+
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+
+    img{
+      padding-right: 20px;
+    }
+
+    .container__CardSideBar--circle{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-left: 60px;
+
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+
+      font-size: 12px;
+      
+      background-color: #2C1842;
+    }
+  }
+}

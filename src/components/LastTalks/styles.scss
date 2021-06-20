@@ -1,0 +1,28 @@
+.container__LastTalks{
+  width: 100%;
+  
+  .container__LastTalks--title{
+    width: 100%;
+    color: #5C3B81;
+    margin-top: 20px;
+    border-bottom: 1px solid #D0C6D8;
+    
+    .container__LastTalks--h2 {
+      display: flex;
+      align-items: center;
+      width: 100%;
+
+      font-family: "Source Sans Pro";
+      font-weight: 900;
+      font-size: 36px !important;
+    }
+  }
+
+  .container__LastTalks--card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    margin: 20px;
+  }
+}

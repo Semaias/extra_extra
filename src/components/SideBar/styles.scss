@@ -1,0 +1,26 @@
+.container__sidebar{
+  Height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #5C3B81;
+
+  .container__sidebar--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 220px;
+    margin-top: 10px;
+  }
+
+  .container__sidebar--card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+  }
+}
